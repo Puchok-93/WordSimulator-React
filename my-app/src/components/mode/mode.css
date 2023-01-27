@@ -1,0 +1,26 @@
+.mode__btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75;
+    padding: 8px 18px;
+    border: 2px solid #7B8FF7;
+    background-color: #7B8FF7;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 0;
+}
+
+.mode__btn--active {
+    background-color: #ffffff;
+    color: #7B8FF7;
+    border-color: #fff;
+    border-right-color: #7B8FF7;
+}
+
+.mode__btn:first-of-type {
+    border-radius: 10px 0 0 10px;
+}
+
+.mode__btn:last-child {
+    border-radius: 0 10px 10px 0;
+}
